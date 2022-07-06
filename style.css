@@ -20,7 +20,7 @@ p{
     background-image: url(images/donation12.png);
     background-repeat: no-repeat;
     height: 900px;
-    width: 1300px;
+    width: 1250px;
     border-bottom-left-radius: 4%;
     border-bottom-right-radius: 4%;
     margin: 0%;
@@ -56,6 +56,7 @@ p{
     margin-right: 1%;
     border-radius: 10px;
     box-shadow: 15px 15px 15px rgb(58, 54, 54);
+    background-color: blanchedalmond;
 }
 section{
     margin-bottom: 100px;
@@ -71,18 +72,42 @@ section{
 .conteiner{
     display: flex;
     display: inline-block;
+    overflow: hidden;
 }
 .boxer{
     text-align: center;
+}
+.paper{
+    margin-left: 350px;
+    margin-top: -150px;
+}
+.donate button{
+    margin-left: 300px;
+}
+.danate button a{
+    display: block;
 }
 .boxer ul li {
     display: inline-block;
     margin-top: 30%;
     box-shadow: 4px 4px 4px rgb(199, 83, 83);
     color:black;
-    padding-right: 5%;
-    padding:25px 20px
+    padding:20px 30px;
+    text-align: justify;
 }
 .differ{
     border: 4px solid cornflowerblue;
+}
+.item{
+    text-align: center;
+    margin-top: 200px;
+    margin-right: 400px;
+}
+.subscribe-type{
+    display: block;
+    float: left;
+}
+.select{
+    display: block;
+    margin-left: 100px;
 }
