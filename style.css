@@ -98,16 +98,16 @@ section{
 .differ{
     border: 4px solid cornflowerblue;
 }
-.item{
-    text-align: center;
-    margin-top: 200px;
-    margin-right: 400px;
-}
-.subscribe-type{
-    display: block;
-    float: left;
-}
 .select{
     display: block;
     margin-left: 100px;
+}
+.box form input:last-child{
+    background-color: rgb(199, 83, 83);
+    color: white;
+    padding: 14px 21px;
+    margin-right: 15%;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
 }
